@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Furlanis">
+    <meta name="description" content="Resumo das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo das aulas de tabelas</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+
+        th{
+            background-color: yellow;
+            border: 2px solid chocolate;
+            padding: 15px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li>
+                    <a href="./fontes.html">Fontes</a>
+                </li>
+                <li>
+                    <a href="./display.html">Display</a>
+                </li>
+                <li>
+                    <a href="./boxsizing.html">Box-sizing</a>
+                </li>
+                <li>
+                    <a href="./position.html">Position</a>
+                </li>
+                <li>
+                    <a href="./listas.html">listas</a>
+                </li>
+                <li>
+                    <a href="./overflow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./tabelas.html">Tabelas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>Tabelas de preços de curso</caption>
+
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Design</td>
+                    <td>InDesign</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Design</td> -->
+                    <td>Photoshop</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Desenvolvimento</td>
+                    <td>HTML</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Desenvolvimento</td> -->
+                    <td>CSS</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <!-- <td>Desenvolvimento</td> -->
+                    <td>JavaScript</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alterações sem aviso prévio</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
