@@ -22,3 +22,37 @@
 .texto-tres{
     font-family: 'Dune Rise';
 }
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(87, 192, 192);
+}
+
+a:hover{
+    color: rgb(141, 92, 186);
+}
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px auto;  
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+ }
+
+ #menu-lista{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s, width 0.5s;
+ }
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
