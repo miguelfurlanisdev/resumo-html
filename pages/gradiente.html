@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Furlanis">
+    <meta name="description" content="Resumo das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo de Gradiente</title>
+    <style>
+        html,
+        body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-color: red; */
+            background-image: linear-gradient(90deg, red 30%, blue, green, yellow, white, purple, orange 60%);
+            background-size: auto, 100% 100%;
+            
+        }
+        #gradiente{
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            box-shadow: 30px 30px 10px 20px blue,
+            -30px -30px 30px 30px red,
+            -30px 30px 15px 40px yellow,
+            30px -30px 30px 50px green;
+              
+            /*  Primeiro valor - Quanto ele se deslocará no eixo x
+                Segundo valor - Quanto ele se deslocará no eixo y
+                Terceiro valor - O quanto estará desfocado
+                (quarto valor) - Tamanho da sombra relativo ao objeto
+                Quarto valor - A cor da sombra */
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: center;
+
+            text-shadow: -1px 1px 0 rgb(154, 154, 154),
+            -2px 2px 0 rgb(169, 168, 168),
+            -3px 3px 0 rgb(175, 175, 175),
+            -4px 4px 0 rgb(209, 209, 209),
+            -5px 5px 0 rgb(189, 189, 189);
+
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li>
+                    <a href="./fontes.html">Fontes</a>
+                </li>
+                <li>
+                    <a href="./display.html">Display</a>
+                </li>
+                <li>
+                    <a href="./boxsizing.html">Box-sizing</a>
+                </li>
+                <li>
+                    <a href="./position.html">Position</a>
+                </li>
+                <li>
+                    <a href="./listas.html">listas</a>
+                </li>
+                <li>
+                    <a href="./overflow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./tabelas.html">Tabelas</a>
+                </li>
+                <li>
+                    <a href="./border-radius.html">Border Radius</a>
+                </li>
+                <li>
+                    <a href="./box-shadow.html">Box Shadow</a>
+                </li>
+                <li>
+                    <a href="./gradiente.html">Gradiente</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>CSS Efeitos</h1>
+        <div id="gradiente"></div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
