@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Furlanis">
+    <meta name="description" content="Resumo das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo de Box Shadow</title>
+
+    <style>
+        #shadow{
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            box-shadow: 30px 30px 10px 20px blue,
+            -30px -30px 30px 30px red,
+            -30px 30px 15px 40px yellow,
+            30px -30px 30px 50px green;
+              
+            /*  Primeiro valor - Quanto ele se deslocará no eixo x
+                Segundo valor - Quanto ele se deslocará no eixo y
+                Terceiro valor - O quanto estará desfocado
+                (quarto valor) - Tamanho da sombra relativo ao objeto
+                Quarto valor - A cor da sombra */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li>
+                    <a href="./fontes.html">Fontes</a>
+                </li>
+                <li>
+                    <a href="./display.html">Display</a>
+                </li>
+                <li>
+                    <a href="./boxsizing.html">Box-sizing</a>
+                </li>
+                <li>
+                    <a href="./position.html">Position</a>
+                </li>
+                <li>
+                    <a href="./listas.html">listas</a>
+                </li>
+                <li>
+                    <a href="./overflow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./tabelas.html">Tabelas</a>
+                </li>
+                <li>
+                    <a href="./border-radius.html">Border Radius</a>
+                </li>
+                <li>
+                    <a href="./box-shadow.html">Box Shadow</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>CSS Efeitos</h1>
+        <div id="shadow"></div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
