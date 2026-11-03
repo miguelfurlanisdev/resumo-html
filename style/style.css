@@ -48,7 +48,7 @@ nav ul li{
 
  #menu-lista{
     height: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: height 0.5s, width 0.5s;
  }
 
